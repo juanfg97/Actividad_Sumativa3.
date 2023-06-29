@@ -50,8 +50,8 @@ public void setPrecio(double precio) {
 //Se aplica la implementacion personalizada del metodo toString
 @Override
 public String toString() {
-return "Marca: "+ marca+" \n"+"Cantidadmemoria: "+cantidadmemoria + "\n "+
-"Caracteristicas de procesador: "+ caracteristicas +"\n"+"Sistema operativo:"+Sistemaop+"\n"+"Precio: "+precio+"$"+"/n";
+return "Marca: "+ marca+"\n"+"Cantidadmemoria: "+cantidadmemoria +"\n"+
+"Caracteristicas de procesador: "+ caracteristicas +"\n"+"Sistema operativo:"+Sistemaop+"\n"+"Precio: "+precio+"$"+"\n";
 }
  
 
