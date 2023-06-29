@@ -33,7 +33,7 @@ public int getVentas() {
 //Se aplica la implementacion personalizada del metodo toString
 @Override
 public String toString() {
-    return "Vendedor"+ "/n"+"Nombre: "+ Nombre+" "+"Apellido: "+Apellido + "/n "+"Ventas: "+ Ventas +" $" ;
+    return "Vendedor"+ "\n"+"Nombre: "+ Nombre+" "+"Apellido: "+Apellido + "\n "+"Ventas: "+ Ventas +" $" ;
 }
 
 public static void main(String[] args) {
